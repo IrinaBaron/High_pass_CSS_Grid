@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'FirstNeue';
+  src: url("../fonts/TTFirsNeue-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FirstNeue';
+  src: url("../fonts/TTFirsNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto-regular_allfont.ru-webfont.woff2") format("woff2"), url("../fonts/roboto-regular_allfont.ru-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body {
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+.nav__list .nav__link:hover, .header__social .header__social-link:hover {
+  opacity: 0.7;
+}
+
+.nav__list .nav__link, .header__social .header__social-link {
+  -webkit-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  padding: 68px 20px 68px 20px;
+  margin: 0 auto;
+  max-width: 1290px;
+}
+
+/* header  */
+.header {
+  background-color: #202020;
+}
+
+.header .header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 20px;
+}
+
+.logo__link {
+  width: 100%;
+  height: 100%;
+}
+
+.logo__link .logo {
+  width: 190px;
+  height: 31px;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list .nav__item:not(:last-child) {
+  margin-right: 79px;
+}
+
+.nav__list .nav__link {
+  font-family: 'FirstNeue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__social .header__social-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header__social .header__social-link {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
