@@ -23,7 +23,6 @@ const resources = () => {
 
 }
 
-
 const styles = () => {
   return src(['src/styles/normalize.css','src/styles/style.scss'])
     .pipe(sourcemaps.init())
